@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>angularjs-输入语法</title>
+    <!--引入依赖-->
+    <script src ="js/angular.min.js"></script>
+
+</head>
+<body>
+         <h3>
+             angularjs输出语法;{{输出对象}}
+         </h3>
+         <!--ng-app :创建并使用一个默认模块。他所在标签以及一下便拗钱都可以使用angular语法-->
+<div ng-app>
+
+    {{100+100}}
+</div>
+</body>
+</html>
+
+
+
+$scope.getData=function() {
+Shttp.get('data1').success(function (response) {
+$scope.list = response;
+});
+}

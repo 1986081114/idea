@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src ="js/angular.min.js"></script>
+</head>
+<body>
+<h3>
+     <per> ng-model:表明在$scope中定义一个常量username
+          {{}}表明是去$scope中取数据或者直接输出
+      </per>
+
+</h3>
+      <div ng-app ng-init="username='张三'"><!--   ng-init:初始化赋值-->
+        用户名：<input ng-model="username" /> <br/>
+        用户名：{{username}}
+      </div>
+</body>
+</html>
